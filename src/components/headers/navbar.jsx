@@ -17,14 +17,20 @@ const Navbar = () => {
           {isActive ? <i class="bi bi-x"></i> : <i class="bi bi-list"></i>}
         </button>
         <div className="d-none d-lg-flex align-items-center gap-3">
-          <button className="nav-button">Volunteer</button>
-          <button className="nav-button">Donate</button>
+          <button className="nav-button volunteer-button">Volunteer</button>
+          <button className="nav-button donate-button">Donate</button>
           <div>
-            <Link href="#" className="me-3">
+            <Link href="#" className="me-4 social-icon">
               <i className="bi bi-facebook"></i>
             </Link>
-            <Link href="#">
+            <Link href="#" className="me-4 social-icon">
               <i className="bi bi-youtube"></i>
+            </Link>
+            <Link href="#" className="me-4 social-icon">
+                  <i class="bi bi-tiktok"></i>
+            </Link>
+            <Link href="#" className="social-icon">
+              <i class="bi bi-spotify"></i>
             </Link>
           </div>
         </div>
@@ -34,13 +40,14 @@ const Navbar = () => {
           isActive ? "active" : ""
         }`}
       >
-        <Link href="#">Home</Link>
-        <Link href="#">Home</Link>
-        <Link href="#">Home</Link>
-        <Link href="#">Home</Link>
-        <Link href="#">Home</Link>
+        <Link href="#">HOME</Link>
+        <Link href="#">ABOUT</Link>
+        <Link href="#">SCHEDULE</Link>
+        <Link href="#">FAQS</Link>
+        <Link href="#">TESTIMONIES</Link>
+        <Link href="#">CONTACT US</Link>
         <button className="d-inline d-lg-none nav-button">Volunteer</button>
-        <button className="d-inline d-lg-none nav-button">Donate</button>
+        <button className="d-inline d-lg-none nav-button donate-button">Donate</button>
       </div>
     </nav>
   );

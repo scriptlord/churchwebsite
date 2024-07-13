@@ -10,10 +10,30 @@
   .nav-button {
     border: none;
     border-radius: 1rem;
-    padding: 0.2rem 1rem;
-    font-weight: 500;
+    padding: 0.4rem 2rem;
+    font-weight: 600;
     font-size: 0.8rem;
     width: fit-content;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    &.volunteer-button{
+      background: #345686;
+      color: white;
+    }
+    &.donate-button {
+      background: #d80e15;
+      color: white;
+    }
+    
+    &:hover{
+      background: white;
+      color: rgb(0, 33, 65);;
+    }
+  }
+
+  .social-icon{
+    font-size: 1.5rem;
+    color: white;
   }
 
   .menu-button {
@@ -58,6 +78,7 @@
             display: inline;
             padding: 0;
             text-align: left;
+            font-size: 0.9rem;
         }
       }
     }

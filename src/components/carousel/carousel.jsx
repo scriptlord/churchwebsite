@@ -25,29 +25,29 @@ const CarouselComponent = () => {
   return (
     <Carousel
       responsive={responsive}
-    //   autoPlay={true}
-    //   autoPlaySpeed={2000} 
+      autoPlay={true}
+      autoPlaySpeed={2000} 
       infinite={true}
       showDots={true}
       arrows={true}
-    //   customTransition="all .5"
-    //   transitionDuration={1000}
-    containerClass="carousel-container"
+      customTransition="all .5"
+      transitionDuration={1000}
+       containerClass="carousel-container"
       itemClass="carousel-slide"
     >
-      <div  style={{ padding: '20px', textAlign: 'center', backgroundColor: '#f5f5f5' }}>
+      <div >
         <Image src="/images/slide1.jpg" alt="Slide 1" layout="fill" className="slide-image" />
       </div>
-      <div style={{ padding: '20px', textAlign: 'center', backgroundColor: '#e0e0e0' }}>
+      <div >
         <Image src="/images/slide2.jpg" alt="Slide 1" layout="fill" className="slide-image" />
       </div>
-      <div style={{ padding: '20px', textAlign: 'center', backgroundColor: '#d5d5d5' }}>
+      <div >
       <Image src="/images/slide1.jpg" alt="Slide 1" layout="fill" className="slide-image" />
       </div>
-      <div style={{ padding: '20px', textAlign: 'center', backgroundColor: '#c0c0c0' }}>
+      <div>
       <Image src="/images/slide2.jpg" alt="Slide 1" layout="fill" className="slide-image" />
       </div>
-      <div style={{ padding: '20px', textAlign: 'center', backgroundColor: '#b5b5b5' }}>
+      <div>
       <Image src="/images/slide1.jpg" alt="Slide 1" layout="fill" className="slide-image" />
       </div>
     </Carousel>

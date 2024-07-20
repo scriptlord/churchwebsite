@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="navbar-wrapper">
       <div className="d-flex justify-content-between align-items-center">
         <span className={`d-inline-block position-relative logo`}>
-          <Image src="/" alt="" fill />
+          <Image src="/images/logo.webp" alt="" fill  style={{objectFit: "cover"}}/>
         </span>
         <button className="d-lg-none menu-button" onClick={toggle}>
           {isActive ? <i class="bi bi-x"></i> : <i class="bi bi-list"></i>}
@@ -44,8 +44,8 @@ const Navbar = () => {
         <Link href="#">ABOUT</Link>
         <Link href="#">SCHEDULE</Link>
         <Link href="#">FAQS</Link>
-        <Link href="#">TESTIMONIES</Link>
-        <Link href="#">CONTACT US</Link>
+        <Link href="/testimonies">TESTIMONIES</Link>
+        <Link href="/contact">CONTACT US</Link>
         <button className="d-inline d-lg-none nav-button">Volunteer</button>
         <button className="d-inline d-lg-none nav-button donate-button">Donate</button>
       </div>

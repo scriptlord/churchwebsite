@@ -1,0 +1,30 @@
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 8rem;
+    background-color: #453c10; 
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cta-text {
+    font-size: 1.5rem; /* Adjust based on your design needs */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #002244; /* Dark blue text */
+    border: none;
+    border-radius: 20px; /* Rounded corners for the button */
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background-color: #e1e1e1; /* Lighter grey for hover effect */
+  }
+  

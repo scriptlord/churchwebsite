@@ -1,0 +1,101 @@
+// .video-gallery {
+//     text-align: center;
+//     padding: 5rem;
+  
+//     &-title {
+//       font-size: 2rem;
+//       margin-bottom: 3rem;
+//     }
+  
+//     &-videos {
+//       display: flex;
+//       flex-wrap: wrap;
+//       justify-content: center;
+//       gap: 1rem;
+//       margin: 0 3rem;
+  
+//       @media (min-width: 768px) {
+//         gap: 2rem;
+//       }
+//     }
+  
+//     &-video {
+//       position: relative;
+//       padding-top: 28.125%; 
+//       overflow: hidden;
+//       flex: 1 1 100%;
+  
+//       @media (min-width: 768px) {
+//         flex: 1 1 calc(50% - 2rem);
+//         max-width: calc(50% - 2rem);
+//       }
+  
+//       iframe {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         border: none;
+//       }
+//     }
+//   }
+
+.video-gallery {
+    text-align: center;
+    padding: 2rem; /* Consistent padding for mobile view */
+
+    &-title {
+      font-size: 1.5rem; /* Smaller font size for mobile */
+      margin-bottom: 2rem;
+    }
+
+    &-videos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem; /* Smaller gap for mobile */
+      margin: 0 1rem; /* Reduced side margins for mobile */
+
+      @media (min-width: 768px) {
+        gap: 2rem;
+        margin: 0 3rem; /* Larger margins for desktop */
+      }
+    }
+
+    &-video {
+      position: relative;
+      padding-top: 56.25%; /* Aspect ratio changed to better suit mobile screens */
+      overflow: hidden;
+      width: 100%; /* Ensures that video uses full width on mobile */
+      margin-bottom: 1rem;
+      @media (min-width: 768px) {
+        flex: 1 1 calc(50% - 2rem);
+        max-width: calc(50% - 2rem);
+        padding-top: 28.125%; /* Reverting aspect ratio for larger screens */
+      }
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    }
+}
+
+@media (min-width: 768px) {
+    .video-gallery{
+        padding: 5rem;
+    }
+    .video-gallery-title {
+        font-size: 2.5rem; /* Bigger font size for desktop */
+        margin-bottom: 3rem;
+    }
+    
+    .video-gallery p {
+        font-size: 1.25rem; /* Increase paragraph text size on desktop */
+    }
+}

@@ -1,0 +1,51 @@
+.carousel-title {
+    text-align: center;
+    font-size: 2.5rem; /* Adjust size as needed */
+    color: #333; /* Dark text for readability */
+    margin: 5rem 0 2rem;
+  }
+  
+
+.carousel-item {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align items */
+    padding: 20px;
+    background-color: #ffffff; /* Optional: background color */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Optional: shadow for depth */
+  }
+  
+  .event-info {
+    text-align: center; /* Center text */
+    margin-bottom: 20px; /* Space between text and image */
+  }
+  
+  .details-register {
+    background-color: #007bff; /* Example: a blue button */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .details-register:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Smaller devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+    .carousel-title {
+      font-size: 2rem; /* Slightly smaller font size */
+      margin: 4rem 0 1.5rem !important; /* Adjusted margins */
+    }
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media (max-width: 600px) {
+    .carousel-title {
+      font-size: 1.5rem; /* Even smaller font size for small devices */
+      margin: 4rem 0 1rem !important; /* Smaller top and bottom margins */
+    }
+  }

@@ -1,0 +1,80 @@
+.resources-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 3rem;
+    background-color: #f4f4f4;
+  }
+  
+  .resources-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .resource-row {
+    display: flex;
+    // justify-content: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  
+  .resource {
+    height: 300px;
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center;
+    width: 100%; /* Full width to accommodate both sub-components */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-radius: 1rem;
+  }
+  
+  .podcast-image img {
+    width: 100%; /* Full width of the container */
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .podcast-image {
+    flex: 0 0 40%; /* Lock the flex-basis to 40% and don't allow it to grow or shrink */
+    margin-right: 20px;
+  }
+  
+  .podcast-content {
+    flex: 0 0 60%; /* Lock the flex-basis to 60% and don't allow it to grow or shrink */
+    text-align: left;
+  }
+  
+  .resource-info, .podcast-content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .resource-info h2, .podcast-content h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .resource-info p, .podcast-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .resource-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .resource-button:hover {
+    background-color: #0056b3;
+  }
+  

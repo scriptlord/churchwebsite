@@ -1,0 +1,19 @@
+.enquiry-section {
+    text-align: center; /* Centers the content */
+    position: relative; /* Needed for absolute positioning inside */
+  }
+  
+  .header-image {
+    position: relative;
+    width: 100%; /* Full width of its container */
+    height: 500px; /* Set a fixed height or use responsive units */
+  }
+  
+  .enquiry-text {
+    background-color: #30475e; /* Dark blue, adjust the color to match your design */
+    color: #f0f0f0; /* Light gray text color for readability */
+    padding: 20px 0; /* Padding above and below the text */
+    font-size: 24px; /* Large font size for visibility */
+    font-weight: bold; /* Makes the font bold */
+  }
+  

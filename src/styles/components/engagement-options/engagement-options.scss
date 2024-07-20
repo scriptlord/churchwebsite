@@ -1,0 +1,51 @@
+.cards-container{
+    display: flex;
+    margin: 4rem auto;
+    width: 80%;
+   flex-wrap: wrap;
+    .contact-card-item {
+        position: relative;
+        flex-basis: calc(33.333% - 20px); 
+        margin: 10px; 
+        height: 22.43rem;
+        transition: transform 0.3s ease;
+        &:hover {
+         transform: scale(0.95);
+         .overlay {
+            background-color: rgba(0, 0, 0, 0.5); 
+          }
+          .contact-card-title{
+            z-index: 1;
+            border: 2px solid white;
+            padding: 4rem;
+          }
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0); 
+            transition: background-color 0.3s ease;
+          }
+    }
+    
+    .contact-card-title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%)  ;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        width: 70%;
+        transition: border 0.3s ease;
+    }
+
+
+   
+}
+    

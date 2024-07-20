@@ -30,7 +30,7 @@ const CarouselComponent = () => {
       infinite={true}
       showDots={true}
       arrows={true}
-      customTransition="all .5"
+      customTransition="transform 0.5s ease-in-out"
       transitionDuration={1000}
        containerClass="carousel-container"
       itemClass="carousel-slide"
@@ -55,3 +55,5 @@ const CarouselComponent = () => {
 };
 
 export default CarouselComponent;
+
+

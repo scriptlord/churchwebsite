@@ -1,0 +1,39 @@
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #002244; /* Dark background for better readability */
+    color: white;
+  }
+  
+  .info-column {
+    width: 32%; /* Divide by three and subtract some space for padding */
+    padding: 20px;
+    border-right: 1px solid white; /* Adds a line between columns */
+  }
+  
+  .info-column:last-child {
+    border-right: none; /* Remove border from the last column */
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .info-section {
+      flex-direction: column; /* Stack columns vertically on smaller screens */
+    }
+  
+    .info-column {
+      width: 100%; /* Each column takes full width */
+      padding: 10px;
+      border-right: none; /* No vertical borders in vertical layout */
+      border-bottom: 1px solid white; /* Horizontal borders instead */
+    }
+  
+    .info-column:last-child {
+      border-bottom: none; /* No border for the last item */
+    }
+  }
+  

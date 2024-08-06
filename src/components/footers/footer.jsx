@@ -14,10 +14,10 @@ const Footer = () => {
               <i className="bi bi-youtube"></i>
             </Link>
             <Link href="#" className="me-4 icon">
-                  <i class="bi bi-tiktok"></i>
+                  <i className="bi bi-tiktok"></i>
             </Link>
             <Link href="#" className="icon">
-              <i class="bi bi-spotify"></i>
+              <i className="bi bi-spotify"></i>
             </Link>
         </div>
       </div>

@@ -1,9 +1,51 @@
 @import "./reset.scss";
-@import '~bootstrap/scss/bootstrap';
-@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/dist/css/bootstrap.min.css";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 @import "./components/index.scss";
 @import "./pages/index.scss";
 @import "~react-multi-carousel/lib/styles.css";
 // @import 'swiper/swiper-bundle.min.css';
 
+:root {
+  --penaid-green-g-400: #3b8751;
+  --penaid-orange-o-50: #fff6e6;
+  --penaid-orange-o-300: #ffa500;
+  --penaid-grey-g-20: #f7f7f7;
+  --penaid-green-g-50: #d32f2f;
+  --penaid-green-g-300: #fff;
+  --penaid-grey-g-80: #a9a8a8;
+  --penaid-grey-g-300: #787776;
+  --penaid-grey-g-800: #3c3b39;
+  --penaid-grey-g-700: #494846;
+  --background-color: #fff;
+  --white-background-color: #fff;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+  --error-color: #dc3545;
+  --penaid-orange-o-400: #b37300;
+  --penaid-grey-g-0: #fff;
+
+  --background-light-color-1: #bfbfbf;
+  --background-light-color-2: #cccccb;
+  --background-light-color-3: #f7f7f7;
+
+  /* naming is obtained from figma */
+  --penaid-textlink-color: #1e1e1e;
+  --penaid-grey-g-700: #494846;
+  ---penaid-grey-g-900: #32312f;
+  --penaid-grey-g-600: #575654;
+  --dark-text-color-5: #1e1e1e;
+  --dark-text-color-6: #61605f;
+  --dark-text-color-6: #90908f;
+
+  --light-text-color-1: #90908f;
+  --light-text-color-2: #efefee;
+}
+
+
+.cursor-pointer {
+  cursor: pointer
+}

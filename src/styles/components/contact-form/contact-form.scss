@@ -1,0 +1,56 @@
+.contact-card-item {
+  position: relative;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.contact-card-item:hover {
+  transform: scale(0.95);
+}
+
+.contact-card-item:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+}
+
+.contact-card-title {
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: border 0.3s ease;
+}
+
+.contact-card-item:hover .contact-card-title {
+  z-index: 1;
+  border: 2px solid white;
+  padding: 0.5rem;
+}
+
+// .contact-card-item .contact-card-title {
+//   border: 2px solid white;
+//   padding: 0.5rem;
+//   z-index: 1;
+// }
+
+.contact-category {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.form-container {
+  max-height: 600px;
+  overflow-y: auto;
+  padding-bottom: 10rem;
+}

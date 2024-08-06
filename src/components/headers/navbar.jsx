@@ -14,7 +14,7 @@ const Navbar = () => {
           <Image src="/images/logo.webp" alt="" fill  style={{objectFit: "cover"}}/>
         </span>
         <button className="d-lg-none menu-button" onClick={toggle}>
-          {isActive ? <i class="bi bi-x"></i> : <i class="bi bi-list"></i>}
+          {isActive ? <i className="bi bi-x"></i> : <i className="bi bi-list"></i>}
         </button>
         <div className="d-none d-lg-flex align-items-center gap-3">
           <button className="nav-button volunteer-button">Volunteer</button>
@@ -27,10 +27,10 @@ const Navbar = () => {
               <i className="bi bi-youtube"></i>
             </Link>
             <Link href="#" className="me-4 social-icon">
-                  <i class="bi bi-tiktok"></i>
+                  <i className="bi bi-tiktok"></i>
             </Link>
             <Link href="#" className="social-icon">
-              <i class="bi bi-spotify"></i>
+              <i className="bi bi-spotify"></i>
             </Link>
           </div>
         </div>
@@ -42,8 +42,8 @@ const Navbar = () => {
       >
         <Link href="#">HOME</Link>
         <Link href="#">ABOUT</Link>
-        <Link href="#">SCHEDULE</Link>
-        <Link href="#">FAQS</Link>
+        <Link href="/schedule">SCHEDULE</Link>
+        <Link href="/faq">FAQS</Link>
         <Link href="/testimonies">TESTIMONIES</Link>
         <Link href="/contact">CONTACT US</Link>
         <button className="d-inline d-lg-none nav-button">Volunteer</button>

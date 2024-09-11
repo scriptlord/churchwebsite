@@ -49,3 +49,32 @@
 .cursor-pointer {
   cursor: pointer
 }
+
+
+.normal-btn{
+  border-radius: 2.5rem;
+  color: var(--penaid-green-g-300);
+  background: var(--penaid-green-g-50);
+  border-style: none;
+}
+
+.no-outline {
+  border: none;
+  outline: none;
+  box-shadow: none !important;
+}
+.no-outline-effect {
+  outline: none;
+  box-shadow: none !important;
+  border: 1px solid lightgray;
+}
+.no-outline-effect:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.no-outline:focus {
+  border: none;
+  outline: none;
+  box-shadow: none !important;
+}

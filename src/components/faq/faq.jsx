@@ -76,7 +76,7 @@ const FaqBlock = ({ showTabs = true, showHeader = true, showFooter = true }) => 
                 } />
                 <Tab eventKey="others" title={
                   <div className="d-flex align-items-center">
-                    <MdMoreHoriz color={activeTab === 'others' ? 'white' : 'grey'} className="me-2" />
+                    {/* <MdMoreHoriz color={activeTab === 'others' ? 'white' : 'grey'} className="me-2" /> */}
                     <span>Others</span>
                   </div>
                 } />

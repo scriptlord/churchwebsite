@@ -146,6 +146,19 @@
   border-style: none;
 }
 
+.pen-button-sm {
+  display: flex;
+  padding: 0.6rem 1.5625rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+  border-radius: 2.5rem;
+  color: var(--penaid-green-g-300);
+  background: var(--penaid-green-g-50);
+  border-style: none;
+}
+
+
+
 .pen-button.fontWeight {
   font-weight: 700;
 }

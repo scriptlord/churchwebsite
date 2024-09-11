@@ -36,23 +36,25 @@ const CarouselComponent = () => {
       itemClass="carousel-slide"
     >
       <div >
-        <Image src="/images/slide1.jpg" alt="Slide 1" layout="fill" className="slide-image" />
+        <Image src="/images/manslide.svg" alt="Slide 1" layout="fill" className="slide-image" />
       </div>
       <div >
-        <Image src="/images/slide2.jpg" alt="Slide 1" layout="fill" className="slide-image" />
+        <Image src="/images/worship.svg" alt="Slide 1" layout="fill" className="slide-image" />
       </div>
       <div >
-      <Image src="/images/slide1.jpg" alt="Slide 1" layout="fill" className="slide-image" />
+      <Image src="/images/pray.svg" alt="Slide 1" layout="fill" className="slide-image" />
       </div>
       <div>
-      <Image src="/images/slide2.jpg" alt="Slide 1" layout="fill" className="slide-image" />
+      <Image src="/images/shesmile.svg" alt="Slide 1" layout="fill" className="slide-image" />
       </div>
       <div>
-      <Image src="/images/slide1.jpg" alt="Slide 1" layout="fill" className="slide-image" />
+      <Image src="/images/worship.svg" alt="Slide 1" layout="fill" className="slide-image" />
       </div>
     </Carousel>
   );
 };
+
+
 
 export default CarouselComponent;
 

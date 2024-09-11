@@ -17,7 +17,7 @@ const ProfileGallery = () => {
       <ProfileCard
         name="Apostle Mark Hemans"
         description="It is my passion that people have a life changing encounter with Jesus Christ in the power of His Holy Spirit. Jesus Encounter Ministries was established in 2004 by myself in response to a divine dream to go to Borneo."
-        imageSrc="/images/pastor.jpeg"
+        imageSrc="/images/thepastor.jpeg"
         imgHeight="500px"
         marginBottom="2rem"
         
@@ -25,7 +25,7 @@ const ProfileGallery = () => {
       <ProfileCard
         name="Sarah Hemans"
         description="Sarah Hemans is an anointed Worship Minister, set on glorifying the name of Jesus Christ through triumphant praise and Spirit-filled, intimate worship. Her passion in life is to live a life holy and pleasing unto the Lord."
-        imageSrc="/images/pastor.jpeg"
+        imageSrc="/images/thepastor.jpeg"
         imgHeight="500px"
         marginBottom="2rem"
         

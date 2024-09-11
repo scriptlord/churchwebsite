@@ -1,90 +1,65 @@
 import React from 'react';
-import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer className="footer-container">
-      <div className="footer-section social">
-        <h3>SOCIAL</h3>
-        <div className="social-icons">
-            <Link href="#" className="me-4 icon">
-              <i className="bi bi-facebook"></i>
-            </Link>
-            <Link href="#" className="me-4 icon">
-              <i className="bi bi-youtube"></i>
-            </Link>
-            <Link href="#" className="me-4 icon">
-                  <i className="bi bi-tiktok"></i>
-            </Link>
-            <Link href="#" className="icon">
-              <i className="bi bi-spotify"></i>
-            </Link>
+      <h2 className='text-center py-5 text-white'>Want to get updates from us?</h2>
+      <div className='d-flex flex-column justify-content-center align-items-center w-100 mb-5'>
+        <div className="input-group w-50 mb-2">
+          <input type="text" className="form-control no-outline" placeholder="Enter Email Address" aria-label="Email address" aria-describedby="basic-addon2"/>
+          <button className="normal-btn py-3 px-4" type="button" id="button-addon2">Subscribe</button>
+        </div>
+        <small className="text-center text-white px-3">By subscribing to our Newsletter, you consent to receiving recurring automated messages (e.g. programme reminders) via automated technology</small>
+      </div>
+      <div className="container py-4 px-4 px-md-5">
+        <div className="row">
+          <div className="col-md-3 offset-md-1 text-white">
+            <h3 className="fw-bold mb-3">UPCOMING EVENTS</h3>
+            <p className="mb-2">Online Revival Miracle Meetings combined with the Slovakian event.</p>
+            <p>Slovakia Revival Miracle Meetings:<br/>
+               6pm Friday, July 12th &<br/>
+               6pm Saturday, July 13th</p>
+          </div>
+          <div className="col-md-3 offset-md-1 text-white">
+            <h3 className="fw-bold mb-3">NAVIGATION</h3>
+            <ul className="list-unstyled">
+              <li className="mb-2"><a href="#" className="text-white text-decoration-none">Home</a></li>
+              <li className="mb-2"><a href="#" className="text-white text-decoration-none">About</a></li>
+              <li className="mb-2"><a href="#" className="text-white text-decoration-none">Podcast</a></li>
+              <li><a href="#" className="text-white text-decoration-none">Testimonies</a></li>
+            </ul>
+          </div>
+          <div className="col-md-3 offset-md-1 text-white">
+            <h3 className="fw-bold mb-3">GET IN TOUCH</h3>
+            <ul className="list-unstyled">
+              <li className="mb-2"><a href="#" className="text-white text-decoration-none">Testimonies</a></li>
+              <li className="mb-2"><a href="#" className="text-white text-decoration-none">Volunteer</a></li>
+              <li className="mb-2"><a href="#" className="text-white text-decoration-none">Prayer Request</a></li>
+              <li className="mb-2"><a href="#" className="text-white text-decoration-none">Book Public Meeting</a></li>
+              <li><a href="#" className="text-white text-decoration-none">Other</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div className="footer-section events">
-        <h3>UPCOMING EVENTS</h3>
-        <ul>
-          <li>Online Revival Miracle Meetings combined with the Slovakian event.</li>
-          <li>Slovakia Revival Miracle Meetings 6 pm Fri July 12th, & 6 pm July 13th.</li>
-        </ul>
-      </div>
-      <div className="footer-section navigation">
-        <h3>NAVIGATION</h3>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Podcasts</li>
-          <li>Testimonies</li>
-          <li>FAQs</li>
-          <li>Schedule</li>
-          <li>Donate</li>
-        </ul>
-      </div>
-      <div className="footer-section contact">
-        <h3>GET IN TOUCH</h3>
-        <ul>
-          <li>Testimonies</li>
-          <li>Volunteer</li>
-          <li>Prayer Requests</li>
-          <li>Book Public Meeting</li>
-          <li>Other</li>
-        </ul>
-      </div>
-      
+        <div className="container">
+            <div className="d-flex align-items-center mx-auto justify-content-center">
+              <div>
+                  <div>
+                    <p className="mb-0 ms-2 text-white fw-bold fs-3"> HOPFAN.<span className="fs-5">CH</span> </p>
+                  </div>
+              </div>
+             <div className="social-icons p-3">
+                <a href="#" className="text-white me-3"><i className="bi bi-facebook fs-4"></i></a>
+                <a href="#" className="text-white me-3"><i className="bi bi-twitter fs-4"></i></a>
+                <a href="#" className="text-white"><i className="bi bi-youtube fs-4"></i></a>
+            </div>
+            </div>
+        </div>
+      <p className="text-center text-white mb-0 copyright py-4 mt-5">
+              © 2024. HOPFAN.CH All Rights Reserved.
+      </p>
     </footer>
   );
 };
 
 export default Footer;
-
-
-// import React from 'react';
-// import Link from 'next/link';
-
-// const Footer = () => {
-//   return (
-//     <footer className="footer-container">
-//       <div className="footer-section social">
-//         <h3>SOCIAL</h3>
-//         <div className="social-icons">
-//           <Link href="https://www.facebook.com">
-//             <a className="icon"><i className="bi bi-facebook"></i></a>
-//           </Link>
-//           <Link href="https://www.youtube.com">
-//             <a className="icon"><i className="bi bi-youtube"></i></a>
-//           </Link>
-//           <Link href="https://www.tiktok.com">
-//             <a className="icon"><i className="bi bi-tiktok"></i></a>
-//           </Link>
-//           <Link href="https://www.spotify.com">
-//             <a className="icon"><i className="bi bi-spotify"></i></a>
-//           </Link>
-//         </div>
-//       </div>
-//       {/* Additional footer sections can follow the similar structure */}
-      
-//     </footer>
-//   );
-// };
-
-// export default Footer;

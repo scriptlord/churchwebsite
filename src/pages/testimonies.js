@@ -14,7 +14,7 @@ const TestimonyPage = () => {
         quote="This course changed the way I approach video production!"
         author="Jane Doe"
         occupation="PROFESSIONAL VIDEOGRAPHER"
-        videoUrl="https://www.youtube.com/embed/someOtherVideoID"
+        videoUrl="https://www.youtube.com/embed/qUVgAih13sg?si=yVmbLp3JhBVq1LC_"
       />
     </div>
   )

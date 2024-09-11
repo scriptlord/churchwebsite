@@ -7,22 +7,22 @@ const FreeResources = () => {
       <div className="resource-row">
         <div className="resource">
           <div className="podcast-image">
-            <img src="/images/slide1.jpg"  alt="Podcast" />
+            <img src="/images/smile.svg"  alt="Podcast" />
           </div>
           <div className="podcast-content">
             <h2>JESUS ENCOUNTER MINISTRIES PODCAST</h2>
             <p>Tune in to the Jesus Encounter Ministries Podcast on Spotify now to listen to Apostle Mark's sermons on your daily commute.</p>
-            <button className="resource-button">LISTEN NOW!</button>
+            <button className="pen-button-sm">LISTEN NOW!</button>
           </div>
         </div>
         <div className="resource">
             <div className="podcast-image">
-                <img src="/images/slide1.jpg"  alt="Podcast" />
+                <img src="/images/dome.svg"  alt="Podcast" />
             </div>
             <div className="podcast-content">
                 <h2>JESUS ENCOUNTER MINISTRIES PODCAST</h2>
                 <p>Tune in to the Jesus Encounter Ministries Podcast on Spotify now to listen to Apostle Mark's sermons on your daily commute.</p>
-                <button className="resource-button">LISTEN NOW!</button>
+                <button className="pen-button-sm">LISTEN NOW!</button>
             </div>
             </div>
       </div>

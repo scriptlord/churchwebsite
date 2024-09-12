@@ -2,18 +2,17 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: #dfe8f0; /* Dark background for better readability */
-    // color: white;
+    background: #dfe8f0; 
   }
   
   .info-column {
-    width: 32%; /* Divide by three and subtract some space for padding */
+    width: 32%; 
     padding: 20px;
-    border-right: 1px solid white; /* Adds a line between columns */
+    border-right: 1px solid white;
   }
   
   .info-column:last-child {
-    border-right: none; /* Remove border from the last column */
+    border-right: none;
   }
   
   h2 {
@@ -22,18 +21,18 @@
   
   @media (max-width: 768px) {
     .info-section {
-      flex-direction: column; /* Stack columns vertically on smaller screens */
+      flex-direction: column;
     }
   
     .info-column {
-      width: 100%; /* Each column takes full width */
+      width: 100%; 
       padding: 10px;
-      border-right: none; /* No vertical borders in vertical layout */
-      border-bottom: 1px solid white; /* Horizontal borders instead */
+      border-right: none; 
+      border-bottom: 1px solid white;
     }
   
     .info-column:last-child {
-      border-bottom: none; /* No border for the last item */
+      border-bottom: none; 
     }
   }
   

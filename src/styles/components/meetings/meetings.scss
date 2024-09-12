@@ -1,61 +1,9 @@
-// .carousel-title {
-//     text-align: center;
-//     font-size: 2.5rem; /* Adjust size as needed */
-//     color: #333; /* Dark text for readability */
-//     margin: 5rem 0 2rem;
-//   }
-  
 
-// .carousel-item {
-//     display: flex;
-//     flex-direction: column; /* Stack children vertically */
-//     align-items: center; /* Center-align items */
-//     padding: 20px;
-//     background-color: #ffffff; /* Optional: background color */
-//     border-radius: 10px; /* Optional: rounded corners */
-//     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Optional: shadow for depth */
-//   }
-  
-//   .event-info {
-//     text-align: center; /* Center text */
-//     margin-bottom: 20px; /* Space between text and image */
-//   }
-  
-//   .details-register {
-//     background-color: #007bff; /* Example: a blue button */
-//     color: white;
-//     text-decoration: none;
-//     padding: 10px 20px;
-//     border-radius: 5px;
-//     transition: background-color 0.3s ease;
-//   }
-  
-//   .details-register:hover {
-//     background-color: #0056b3; /* Darker blue on hover */
-//   }
-  
-//   /* Smaller devices (landscape tablets, 768px and up) */
-// @media (max-width: 768px) {
-//     .carousel-title {
-//       font-size: 2rem; /* Slightly smaller font size */
-//       margin: 4rem 0 1.5rem !important; /* Adjusted margins */
-//     }
-//   }
-  
-//   /* Extra small devices (phones, 600px and down) */
-//   @media (max-width: 600px) {
-//     .carousel-title {
-//       font-size: 1.5rem; /* Even smaller font size for small devices */
-//       margin: 4rem 0 1rem !important; /* Smaller top and bottom margins */
-//     }
-//   }
-
-/* components/BackgroundSection.css */
 .background-container {
   position: relative;
   width: 100%;
-  height: 500px; /* Adjust height as needed */
-  background-image: url('/images/hall.svg'); /* Update with the actual path to your image */
+  height: 500px;
+  background-image: url('/images/hall.svg'); 
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -67,7 +15,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(25, 118, 210, 0.5); /* 50% opacity */
+  background-color: rgba(25, 118, 210, 0.5);
   z-index: 1;
 }
 
@@ -87,13 +35,13 @@
 }
 
 .overlay-title {
-  font-size: 2rem; /* Adjust font size as needed */
+  font-size: 2rem; 
   margin-bottom: 20px;
   font-weight: bold;
 }
 
 .overlay-button {
-  background-color: #dc3545; /* Bootstrap danger color */
+  background-color: #dc3545; 
   color: white;
   padding: 10px 20px;
   border: none;
@@ -105,5 +53,5 @@
 }
 
 .overlay-button:hover {
-  background-color: #c82333; /* Darker variant of the danger color */
+  background-color: #c82333;
 }
